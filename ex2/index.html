@@ -8,8 +8,10 @@
   <form action="./logic.php" method="get">
     <label for="moneda">Cantidad</label><br>
     <input type="number" id="moneda" name="moneda" min="0"><br><br>
-    <input type="">
-
+    <select id="moneda" name="moneda">  
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
     <button type="submit">Convertir</button>
   </form>
 </body>

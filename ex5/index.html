@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Quin és el preu?</title>
+</head>
+<body>
+
+<h1>Quin és el preu?</h1>
+
+<form action="./logic.php" method="get">
+  <label for="preu">Preu sense IVA (€):</label><br>
+  <input id="preu" type="number" name="preu" min="0" step="0.01" placeholder="0,00" required>
+  <select id="moneda" name="moneda">  
+    <option value="general">General</option>
+    <option value="reduido">Reduido</option>
+    <option value="superreducido">Superreducido</option>
+    <option value="sin">Sin</option>
+  </select>
+  <p><button type="submit">Envia el preu</button></p>
+</form>
+
+</body>
+</html>

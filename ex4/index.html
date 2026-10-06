@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Quina música t'agrada més?</title>
+</head>
+<body>
+
+<h1>Quina música t'agrada més?</h1>
+<p>Tria l'estil que més escoltes. Només una resposta.</p>
+
+<form action="./logic.php" method="get">
+  <fieldset>
+    <legend>Estil de música preferit</legend>
+
+    <label><input type="radio" name="estil" value="Pop" required> Pop</label><br>
+    <label><input type="radio" name="estil" value="Rock"> Rock</label><br>
+    <label><input type="radio" name="estil" value="Hip-hop"> Hip-hop</label><br>
+    <label><input type="radio" name="estil" value="Electrònica"> Electrònica</label><br>
+    <label><input type="radio" name="estil" value="Jazz"> Jazz</label><br>
+    <label><input type="radio" name="estil" value="Rumba catalana"> Rumba catalana</label>
+  </fieldset>
+
+  <p><button type="submit">Envia la resposta</button></p>
+</form>
+
+</body>
+</html>
